@@ -18,13 +18,16 @@ All submissions to our challenge will be evaluated in all three scenarios. The r
 Challenge Dataset
 ----------------------------
 
-We used navigation episodes Habitat created as the main dataset for the challenge. In addition, we scanned a 
+We use navigation episodes Habitat created as the main dataset for the challenge. In addition, we scanned a 
 new house named "Castro" and use part of it for training. The evaluation will be in Castro in both sim and real.
 
 - Training scenes: 72 Gibson Scenes + Castro
 - Dev scenes: Castro(Sim), Castro(Real)
 - Evaluation scenes: CastroUnseen(Sim), CastroUnseen(Real)
 
+Challenge Robotic Platform 
+-----------------------------
+We use [LoCoBot](http://www.locobot.org/) as our robotic platform for real-world testing. You can find the tech spec for the robot [here](https://www.trossenrobotics.com/locobot-pyrobot-ros-rover.aspx) and for the sensor Intel® RealSense™ D435 [here](https://www.intelrealsense.com/depth-camera-d435/).
 
 Evaluation
 -----------------------------

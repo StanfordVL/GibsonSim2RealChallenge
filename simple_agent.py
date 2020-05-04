@@ -1,5 +1,9 @@
 import numpy as np
 
+IMG_WIDTH = 160
+IMG_HEIGHT = 90
+SENSOR_DIM = 4
+
 ACTION_DIM = 2
 LINEAR_VEL_DIM = 0
 ANGULAR_VEL_DIM = 1
@@ -27,9 +31,9 @@ class ForwardOnlyAgent(RandomAgent):
 
 if __name__ == "__main__":
     obs = {
-        'depth': np.ones((180, 320, 1)),
-        'rgb': np.ones((180, 320, 3)),
-        'sensor': np.ones((2,))
+        'depth': np.ones((IMG_HEIGHT, IMG_WIDTH, 1)),
+        'rgb': np.ones((IMG_HEIGHT, IMG_WIDTH, 3)),
+        'sensor': np.ones((SENSOR_DIM,))
     }
 
     agent = RandomAgent()

@@ -190,7 +190,7 @@ class SACAgent:
         print('activate TF session')
         print('action', action)
 
-    def reset():
+    def reset(self):
         pass
 
     def act(self, obs):

@@ -89,7 +89,7 @@ Participate in the contest by registering on the EvalAI challenge page and creat
 
 - Step 4: 
 
-  Download challenge data from [here](https://forms.gle/q5Ygkw3ijxD5WC5U8) and decompress in `GibsonSim2RealChallenge/gibson-challenge-data`. The file you need to download is called `gibson-challenge-data.tar.gz`.
+  Download challenge data from [here](https://forms.gle/36TW9uVpjrE1Mkf9A) and decompress in `GibsonSim2RealChallenge/gibson-challenge-data`. The file you need to download is called `gibson-challenge-data.tar.gz`.
   
   Please, change the permissions of the directory and subdirectories:
   ```
